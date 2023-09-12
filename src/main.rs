@@ -18,4 +18,12 @@ fn main() {
 
     println!("You guessed: {guess}");
 
+    let guess: i32 = guess.trim().parse().expect("please enter a number!");
+
+    if guess == secret_number {
+        println!("You guessed right!")
+    } else {
+        println!("You guessed wrong!")
+    }
+
 }
