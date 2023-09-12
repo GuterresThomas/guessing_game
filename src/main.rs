@@ -1,3 +1,4 @@
+use core::num;
 use std::io;
 use rand::Rng;
 
